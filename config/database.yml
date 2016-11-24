@@ -1,0 +1,29 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  pool: 5
+  database: newstore_dev
+  username: root
+  password: root
+  host: localhost
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  pool: 5
+  database: newstore_test
+  username: root
+  password: root
+  host: localhost
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  pool: 5
+  database: newstore_dev
+  username: root
+  password: root
+  host: localhost  
